@@ -1,0 +1,15 @@
+.flex {
+  display: flex;
+  height: 200px;
+  /* align-items: flex-end; */
+  /* flex-wrap: wrap; */
+  /* align-items: ; */
+  justify-content: space-around;
+  /* flex-direction: column; */
+}
+
+.flex > * {
+  width: 100px;
+  margin-bottom: 10px;
+  background-color: blueviolet;
+}
